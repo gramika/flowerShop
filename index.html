@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Floral Atelier</title>
+    <!-- bootsrtap linking -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- css linking -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- boxicons linking -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- animate css linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animations linking -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- google font linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Italianno&family=Libertinus+Mono&family=Love+Light&family=Manufacturing+Consent&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg border border-warning navbar-style fixed-top">
+        <div class="container-fluid">
+            <!-- logo image -->
+            <img class="img-fluid logo-style ms-" src="./images/logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  fs-6 fw-semibold p-2 justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-link-style" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-style" href="#ourStory">OUR STORY</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link-style" href="#flowerSection" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            FLOWERS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#flowerSection">Roses</a></li>
+                            <li><a class="dropdown-item" href="#flowerSection">Lilly</a></li>
+                            <li><a class="dropdown-item" href="#flowerSection">Tulips</a></li>
+                            <li><a class="dropdown-item" href="#flowerSection">Orchids</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link nav-link-style" href="#boquetSection">BOUQUETS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-style" href="#decorSection">DECOR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-style" href="#feedbackSection">FEEDBACK</a>
+                    </li>
+                </ul>
+                <form class="d-flex me-3 p-1" role="search">
+                    <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn search-btn" type="submit">Search</button>
+                </form>
+                <form class="d-flex" role="button">
+                    <button class="btn order-button-style fw-600 me-3" type="submit">ORDER NOW</button>
+                    <button class="btn order-button-style me-3 p-2 fw-600" type="submit"><i
+                            class='bx bx-cart fs-2'></i></button>
+
+                </form>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- landing page- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./images/banner_2.jpg" class="d-block w-100 img-carousel-style" alt="banner_2">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/carousel3.png" class="d-block w-100 img-carousel-style"
+                    alt="The Floral Atelier_banner">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/The Floral Atelier_banner1.png" class="d-block w-100 img-carousel-style"
+                    alt="banner3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- OUR  STORY -->
+    <div class="container-fluid about" id="ourStory">
+        <h1 class="text-center fs-1 fw-semibold pt-3 heading">OUR STORY</h1>
+        <p class="quote text-center fw-semibold fs-2 pt-3">
+            🌸 “Flowers whisper ‘Beauty!’ to the world,
+            even as they fade , wilt, fall.” 🌸 <br>
+            — Dr. SunWolf
+        </p>
+        <p class="about-content container mt-3 mb-0 text-center animate__animated animate__fadeIn">
+            The Floral Atelier began as a quiet dream — a desire to bring intentional beauty into everyday life through
+            the language of flowers. What started as a single studio and a few hand-tied bouquets has blossomed into a
+            boutique floral brand rooted in passion, design, and heartfelt service.
+
+            Inspired by nature’s poetry and guided by craftsmanship, we specialize in modern, artfully arranged florals
+            that celebrate both simplicity and sophistication. Our journey is built on one promise: to deliver not just
+            flowers, but emotion, memory, and meaning in every stem. <br>
+            At The Floral Atelier, we believe flowers are more than just gifts — they are expressions of love, moments
+            of beauty, and living works of art. Our atelier is a space where creativity meets nature, crafting floral
+            arrangements that are as thoughtful as they are breathtaking.
+
+            Founded with a passion for design and storytelling, The Floral Atelier curates bespoke bouquets and floral
+            installations for every occasion — from everyday gestures to life’s most cherished celebrations. Each piece
+            is hand-crafted with care, using the freshest seasonal blooms and a refined eye for color, texture, and
+            balance.
+
+            Whether you're sending love from afar, decorating a special event, or simply bringing a touch of beauty into
+            your home, our blooms are made to leave a lasting impression.
+
+            Rooted in elegance. Designed with purpose. Delivered with heart.
+            <br><br>
+        </p>
+    </div>
+    <!-- flowers -->
+    <div class="container-fluid flowers" id="flowerSection">
+        <h1 class="text-center fs-1 fw-semibold pt-3 heading">FLOWERS</h1>
+        <div class="d-flex justify-content-between mt-3 flex-wrap">
+            <div class="flower-list">
+                <img class="flower-img img-fluid" src="./images/roses.jpeg" alt="rose">
+                <button class="btn cart-button">ADD TO CART</button>
+                <p class="price fs-3">price:40/-</p>
+            </div>
+            <div class="flower-list">
+                <img class="flower-img img-fluid" src="./images/lilly.jpeg" alt="lilly">
+                <button class="btn cart-button">ADD TO CART</button>
+                <p class="price fs-3">price:35/-</p>
+            </div>
+            <div class="flower-list">
+                <img class="flower-img img-fluid" src="./images/tulips.jpg" alt="tulips">
+                <button class="btn cart-button">ADD TO CART</button>
+                <p class="price fs-3">price:25/-</p>
+            </div>
+            <div class="flower-list">
+                <img class="flower-img img-fluid" src="./images/orchids.jpg" alt="orchids">
+                <button class="btn cart-button">ADD TO CART</button>
+                <p class="price fs-3">price:20/-</p>
+            </div>
+            <div class="flower-list">
+                <img class="flower-img img-fluid" src="./images/sunflower.jpg" alt="sunflower">
+                <button class="btn cart-button">ADD TO CART</button>
+                <p class="price fs-3">price:20/-</p>
+            </div>
+        </div>
+    </div>
+    <!-- bouquets -->
+    <div class="bouquet-main" id="boquetSection">
+        <h1 class="text-center heading mt-3 fw-semibold">BOUQUETS</h1>
+        <p class="sub-heads fs-2 fw-semibold text-center">Discover our premium bouquet collection, carefully crafted to
+            bring beauty to every moment.</p>
+        <div class="container bouquets d-flex justify-content-between pt-3 flex-wrap">
+
+            <!-- card1 -->
+            <div id="card1" class="card" style="width: 18rem;">
+                <img src="./images/rose_bouquet.jpg" class="card-img-top" alt="rose bouquet">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-2 fw-semibold">Velvet Promise</h5>
+                    <p class="card-text fs-5">Perfect for anniversaries, proposals, or a “just because I love you”
+                        moment..</p>
+                    <p class="price fs-3">price:500/-</p>
+                    <a href="#" class="btn btn-cards">add to cart</a>
+                </div>
+            </div>
+            <!-- card2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/tulip_bouqet.jpg" class="card-img-top" alt="tulip_bouqet">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-2 fw-semibold">Whispering Spring</h5>
+                    <p class="card-text fs-5">Ideal for spring gifts, thank-you bouquets, or cheerful décor.</p>
+                    <p class="price fs-3">price:660/-</p>
+                    <a href="#" class="btn btn-cards">add to cart</a>
+                </div>
+            </div>
+            <!-- card3 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/wed-boq.jpeg" class="card-img-top" alt="wedding_bouquet">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-2 fw-semibold">Ever After</h5>
+                    <p class="card-text fs-5"> Designed for bridal bouquets or premium wedding arrangements.</p>
+                    <p class="price fs-3">price:520/-</p>
+                    <a href="#" class="btn btn-cards">add to cart</a>
+                </div>
+            </div>
+            <!-- card4 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/blue_bouquet.jpg" class="card-img-top" alt="blue_bouquet">
+                <div class="card-body text-center ">
+                    <h5 class="card-title fs-2 fw-semibold">Midnight Serenity</h5>
+                    <p class="card-text fs-5"> Ideal for sympathy bouquets, calming gifts, or elegant home arrangements.
+                    </p>
+                    <p class="price fs-3">price:350/-</p>
+                    <a href="#" class="btn btn-cards">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- decor -->
+    <div class="container-fluid decor" id="decorSection">
+        <h1 class="text-center fs-1 fw-semibold pt-3 heading ">Floral Decor by ' The Floral Atelier '</h1>
+        <p class="about-content container mt-3 mb-0 text-justify" data-aos="fade-up"> flowers aren’t just for
+            bouquets — they
+            transform spaces. <br>
+
+            At The Floral Atelier, we go beyond blooms in a vase. Our floral décor services bring artistry, elegance,
+            and atmosphere to your most cherished moments and spaces. Whether it's a dreamy wedding aisle, a festive
+            celebration, a cozy home corner, or a luxury event, we design each setup with thoughtful attention to detail
+            and natural beauty. <br>
+
+            Our décor style blends modern aesthetics with timeless floral elegance — using seasonal flowers, rich
+            textures, and creative arrangements tailored to your vision. From minimal centerpieces to lush
+            installations, we craft settings that tell a story — your story — in petals and color.</p>
+        <p class="sub-heads fs-2 fw-semibold text-center">Our Decor Services Include:</p>
+        <hr>
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-4 text-center decor-col">
+                <h2 class="decor-head fw-semibold fs-2"> Wedding floral design</h2>
+                <img class="decor-img" src="./images/wedding-decorr.png" alt="wedding">
+                <p class="decor-para mt-3 lh-base text-justify">From breathtaking mandaps to softly adorned aisles, from
+                    graceful
+                    table runners to unforgettable bridal entries — our wedding floral designs are crafted to celebrate
+                    love in full bloom. At The Floral Atelier, we blend tradition with modern elegance, creating custom
+                    floral settings that reflect your unique story. Whether it’s a vibrant cultural ceremony or a
+                    minimalist garden wedding, every petal is placed with purpose, beauty, and heart.</p>
+            </div>
+            <div class="col-lg-4 text-center decor-col">
+                <h2 class="decor-head fw-semibold fs-2"> Event decor </h2>
+                <img class="decor-img" src="./images/event-decor.png" alt="event">
+                <p class="decor-para mt-3 lh-base text-center">Whether it's a product launch, an intimate party, or a
+                    grand
+                    corporate gathering, The Floral Atelier brings sophistication and style to every occasion. Our event
+                    décor blends fresh florals with elegant props, lighting, and textures to create immersive, memorable
+                    spaces. We work closely with your theme and brand to ensure every element feels intentional,
+                    elevated, and unforgettable.</p>
+            </div>
+            <div class="col-lg-4 text-center decor-col3">
+                <h2 class="decor-head fw-semibold fs-2">Home styling </h2>
+                <img class="decor-img" src="./images/home-decor.png" alt="homedecor">
+                <p class="decor-para mt-3 lh-base text-left">Bring the beauty of fresh blooms into your everyday spaces.
+                    From
+                    elegant dining table arrangements and welcoming entrance florals to seasonal setups that reflect the
+                    mood of the moment — The Floral Atelier transforms your home into a living canvas of color and calm.
+                    Every design is thoughtfully curated to complement your interiors and lifestyle, adding charm,
+                    freshness, and a touch of nature to your personal space.</p>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!-- customer feedback -gutters -->
+    <div class="container-fluid overflow-hidden text-center testimonials" id="feedbackSection">
+        <h1 class="text-center fs-1 fw-semibold pt-3 heading mt-5 mb-4">OUR HAPPY CUSTOMERS</h1>
+
+        <div class="row gy-5 ">
+            <div class="col-6 border border-warning">
+                <div class="p-3">
+                    <!-- <img src="./images/bg.png" width="300px" alt=""> -->
+                    ⭐️⭐️⭐️⭐️⭐️ <br>
+                    “Absolutely stunning! The bouquet arrived exactly as pictured — fresh, fragrant, and
+                    beautifully
+                    arranged. You can feel the care that goes into every stem.”<br>
+                    — Rhea D., Bangalore
+                </div>
+            </div>
+            <div class="col-6 border border-warning">
+                <div class="p-3">⭐️⭐️⭐️⭐️⭐️<br>
+                    “I ordered the Velvet Promise bouquet for my anniversary, and it completely wowed my
+                    partner.
+                    The
+                    delivery was prompt, and the packaging was so elegant!”<br>
+                    — Arjun S., Mumbai</div>
+            </div>
+            <div class="col-6 border border-warning">
+                <div class="p-3">⭐️⭐️⭐️⭐️⭐️<br>
+                    “The Floral Atelier brings luxury and love into every bouquet. Their customer service was
+                    personal
+                    and responsive — they even added a custom note!”<br>
+                    — Natasha R., Delhi</div>
+            </div>
+            <div class="col-6 border border-warning ">
+                <div class="p-1">⭐️⭐️⭐️⭐️⭐️<br>
+                    “I’ve tried many flower shops, but nothing matches the creativity and quality of this one.
+                    The
+                    Whispering Spring bouquet was like a painting come to life.”<br>
+                    — Megha T., Hyderabad</div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer
+        class="d-md-flex container-fluid ms-0 justify-content-center align-items-center mt-0 mb-0 position-relative pt-3 pb-3">
+        <p class="text-center contact mt-5">reach out to us at </p>
+        <a class="icon-list ms-5 mt-5" href="#"><i class='bx bxl-instagram icon'></i></a>
+        <a class="icon-list ms-5 mt-5" href="#"><i class='bx bxl-facebook-circle icon'></i></a>
+        <a class="icon-list ms-5 mt-5" href="#"><i class='bx bxs-phone icon'></i></a>
+        <a class="icon-list ms-5 mt-5" href="#"><i class='bx bxl-gmail icon'></i></a>
+
+        <img class="logo-img position-absolute end-0 p-2 mt-5" src="./images/logo-footer.png" alt="logo footer">
+
+    </footer>
+</body>
+<!-- aos animations script linking -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- bootstrap script linking -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+    </script>
+
+</html>

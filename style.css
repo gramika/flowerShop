@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: auto; */
+}
+
+.navbar-style {
+    /* background-color: rgb(200, 114, 200); */
+    background-image: linear-gradient(to top right, rgb(233, 141, 156), rgb(182, 53, 145), rgb(233, 141, 156));
+}
+
+.logo-style {
+    width: 100px;
+}
+
+.nav-link-style {
+    font-family: "Libertinus Mono", monospace;
+    color: white;
+}
+
+.nav-item {
+    padding: 10px 10px;
+}
+
+.search-btn {
+    background-color: purple;
+    color: white;
+}
+
+.order-button-style {
+    color: rgb(14, 8, 11);
+    background-color: rgb(155, 12, 155);
+    border: 1px solid purple;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.carousel-inner {
+    margin-top: 100px;
+}
+
+.img-carousel-style {
+    height: 500px;
+}
+
+.about {
+    /* background-color: rgb(209, 133, 145); */
+    background-image: url(./images/bg1.jpg);
+    opacity: 90%;
+    background-size: cover;
+}
+
+.heading {
+    font-family: "Shadows Into Light Two", cursive;
+    color: purple;
+}
+
+.quote {
+    color: rgb(124, 41, 55);
+    font-family: "Italianno", cursive;
+
+}
+
+.about-content {
+    font-family: "Dancing Script", cursive;
+    color: rgb(13, 119, 122);
+    font-size: 28px;
+}
+
+.flowers {
+    background-image: linear-gradient(to bottom, white, pink, rgb(196, 84, 103), pink, white);
+}
+
+.flower-list {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    /* space for button */
+}
+
+.flower-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.cart-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+    display: none;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+/* Show the button when image is hovered */
+.flower-list:hover .cart-button {
+    display: inline-block;
+    background-color: rgb(232, 38, 71);
+}
+
+/*  image zoom on hover */
+.flower-list:hover .flower-img {
+    transform: scale(1.05);
+}
+
+.price {
+    top: 0;
+    color: purple;
+    margin: 10px;
+    font-family: "Manufacturing Consent", system-ui;
+
+}
+
+.bouquet-main {
+    background-image: linear-gradient(to top, rgb(196, 84, 103), pink, white);
+}
+
+.sub-heads {
+    color: rgb(226, 36, 67);
+    font-family: "Love Light", cursive;
+
+}
+
+.card {
+    padding: 10px;
+    /* margin: 10px 20px; */
+
+}
+
+.card-title {
+    font-family: "Italianno", cursive;
+    color: rosybrown
+}
+
+.card-text {
+    font-family: "Cardo", serif;
+    color: rgb(202, 25, 158);
+}
+
+.btn-cards {
+    color: white;
+    background-color: palevioletred;
+}
+
+.card:hover .card-body {
+    transform: scale(1.05);
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.decor {
+    background-image: linear-gradient(to bottom, rgb(196, 84, 103), pink, white);
+}
+
+.decor-col {
+    border-right: 2px dotted purple;
+}
+
+.decor-col:hover .decor-img {
+    transform: scale(1.05);
+}
+
+.decor-col3:hover .decor-img {
+    transform: scale(1.05);
+}
+
+.decor-head {
+    color: rgb(120, 68, 120);
+    font-family: "Love Light", cursive;
+
+}
+
+.decor-img {
+    width: 34vh;
+}
+
+.decor-para {
+    font-family: "Cardo", serif;
+    color: rgb(101, 17, 143);
+    font-size: 20px;
+}
+
+.testimonials {
+    background-image: linear-gradient(to top, rgb(196, 84, 103), pink, white);
+}
+
+footer {
+    background-image: linear-gradient(to bottom, rgb(196, 84, 103), pink, white);
+}
+
+.icon {
+    font-size: 40px;
+    color: black;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.logo-img {
+    width: 20vh;
+    height: 20vh;
+    right: 0px;
+    right: 0;
+}
+
+.contact {
+    font-size: 20px;
+    color: rgb(167, 57, 75);
+    font-family: "Edu NSW ACT Cursive", cursive;
+}
+
+.footer-logo {
+    right: 0px;
+}
