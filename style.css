@@ -149,7 +149,9 @@
     font-family: "Cardo", serif;
     color: rgb(202, 25, 158);
 }
-
+#wedding-img{
+    height: 275px;
+}
 .btn-cards {
     color: white;
     background-color: palevioletred;
