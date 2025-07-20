@@ -121,7 +121,6 @@
     color: purple;
     margin: 10px;
     font-family: "Manufacturing Consent", system-ui;
-
 }
 
 .bouquet-main {
@@ -131,13 +130,11 @@
 .sub-heads {
     color: rgb(226, 36, 67);
     font-family: "Love Light", cursive;
-
 }
 
 .card {
     padding: 10px;
     /* margin: 10px 20px; */
-
 }
 
 .card-title {
@@ -184,7 +181,6 @@
 .decor-head {
     color: rgb(120, 68, 120);
     font-family: "Love Light", cursive;
-
 }
 
 .decor-img {
